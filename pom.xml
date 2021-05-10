@@ -13,4 +13,18 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.7.0</version>
+        </dependency>
+
+    </dependencies>
+
+    <modules>
+        <module>rabbitmq-console</module>
+        <module>spring-rabbitmq</module>
+    </modules>
+
 </project>
